@@ -1,0 +1,126 @@
+*{
+  box-sizing: border-box;
+}
+
+
+.header {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  margin:0;
+  padding-bottom: 20px;
+  height: 100px;
+  z-index: 10;
+
+}
+
+
+h1 {
+  display: block;
+  padding-left: 40px;
+  padding-top: 20px;
+  height: 200px;
+  width: 200px;
+  zoom: 20%;
+  position: fixed;
+  margin-top: auto;
+}
+
+nav {
+  display: block;
+  float: right;
+  display: inline-block;
+  margin: 20px;
+}
+
+a.nav {
+  text-decoration: none;
+  font-family: 'Bungee Hairline', cursive;
+  font-size: large;
+  color: #000000;
+  float: left;
+  margin-left: 20px;
+  padding-top: 20px;
+  padding-right: 40px;
+  cursor: pointer;
+}
+
+h2 {
+  height: 200px;
+  width: 100%;
+  position: relative;
+  top: 200px;
+  z-index: 0;
+}
+
+img.photo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 200px;
+
+}
+
+p.quote{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.about {
+  font-family: 'Bungee Hairline', cursive;
+  font-size: large;
+  font-weight: bolder;
+  margin-top: 420px;
+  text-align: center;
+  display: block;
+  height: 50px;
+  width: auto;
+
+}
+
+p.apara {
+  font-family: 'Bungee Hairline', cursive;
+  font-size: medium;
+  font-weight: 350;
+  margin-top: 1px;
+  margin-bottom: 200px;
+  text-align: center;
+}
+
+
+footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: white;
+  text-align: center;
+}
+
+
+a.links {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.linkedin {
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+  l
+}
+
+.github {
+  height: 35px;
+  width: 35px:
+  cursor: pointer;
+}
+
+.twitter {
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
