@@ -1,5 +1,4 @@
 /* Main Page Styling */
-
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +11,6 @@ body {
 }
 
 /* Overall Header Styling */
-
 header {
   background-color: #FFFAFA;
   width: 100%;
@@ -24,7 +22,6 @@ header {
 }
 
 /* CHZMKL Logo Styling */
-
 #logo img {
   width: 100x;
   height: 100px;
@@ -35,7 +32,6 @@ header {
 }
 
 /* All Nav Bar Styling */
-
 nav {
   color: white;
   width: 720px;
@@ -59,7 +55,6 @@ nav li:hover{
 }
 
 /* Drawing & Quote Section Styling */
-
 #imgQuote {
   width: 100%;
   height: 450px;
@@ -86,24 +81,7 @@ nav li:hover{
   font-style: italic;
 }
 
-/* About Section Styling */
-
-
-
-#about {
-  background-color: white;
-  width: 100%;
-  height: 550px;
-}
-
-.webD {
-  text-shadow: 1px 1px black;
-}
-
-.iAm {
-  text-shadow: 1px 1px black;
-}
-
+/* Offset for link anchors */
 .offset:before {
   display: block;
   content: '';
@@ -112,7 +90,14 @@ nav li:hover{
   visibilty: hidden;
 }
 
- #about h1 {
+/* About Section Styling */
+#about {
+  background-color: white;
+  width: 100%;
+  height: 550px;
+}
+
+#about h1 {
   font-family: 'Bungee Hairline', cursive;
   font-size: 50px;
   font-weight: bolder;
@@ -135,13 +120,19 @@ nav li:hover{
 
 }
 
+.webD {
+  text-shadow: 1px 1px black;
+}
+
+.iAm {
+  text-shadow: 1px 1px black;
+}
+
 p span {
   font-style: italic;
 }
 
 /* Work Section Styling */
-
-
 h1.work {
   font-family: 'Bungee Hairline', cursive;
   font-size: 50px;
@@ -154,7 +145,6 @@ h1.work {
   padding-top: 20px;
 
 }
-
 
 #work {
  font-family: 'Bungee Hairline', cursive;
@@ -170,12 +160,9 @@ h1.work {
   padding-bottom: 100px;
 }
 
-
-
 .ri {
   font-style: italic;
 }
-
 
 .img1 {
   width: 314px;
